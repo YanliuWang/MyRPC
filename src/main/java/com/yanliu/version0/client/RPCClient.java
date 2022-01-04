@@ -17,7 +17,7 @@ public class RPCClient {
     public static void main(String[] args) {
         try {
             // build socket connection
-            Socket socket = new Socket("127.0.0.1", 8999);
+            Socket socket = new Socket("127.0.0.1", 8899);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
 
