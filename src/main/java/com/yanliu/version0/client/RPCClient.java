@@ -30,6 +30,7 @@ public class RPCClient {
             // server sends user to client
             User user = (User) objectInputStream.readObject();
             System.out.println("queried User from server");
+            System.out.println(user);
 
         } catch (UnknownHostException e) {
             e.printStackTrace();
