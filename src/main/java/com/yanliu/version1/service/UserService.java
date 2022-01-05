@@ -1,6 +1,6 @@
 package com.yanliu.version1.service;
 
-import com.yanliu.version0.common.User;
+import com.yanliu.version1.common.User;
 
 /**
  * @author yanliu
